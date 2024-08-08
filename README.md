@@ -20,4 +20,4 @@ Prerequisites
 JDK 8 or higher
 Maven 3.6.0 or higher
 Git (optional, for cloning the repository)
-https://github.com/San-Sandhiy-a/QuizApponline/blob/d99cdc4a66db6bb8bd72543cea58139a5d14a2cd/Screenshots/Homepage.png
+

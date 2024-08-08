@@ -1,23 +1,18 @@
 # QuizApponline
 Overview
-The Quiz App is a simple web application built using Spring Boot, Thymeleaf, and Bootstrap. The application allows users to take a quiz by answering a series of multiple-choice questions. After submitting their answers, users can see their results, and the top scores are displayed on a scoreboard.
+QuizApp is a web application that allows users to take a quiz, evaluate their performance, and compare their scores with others on a scoreboard. The application is built using Spring Boot for the backend, Thymeleaf for server-side rendering, and Bootstrap for the front-end design. This project serves as a simple yet effective example of a full-stack Java web application.
 
 Features
-User Authentication: Users enter their name before starting the quiz.
-Multiple-Choice Questions: Users can select one correct answer for each question.
-Score Calculation: The app calculates the user's score based on the correct answers.
-Scoreboard: Displays the top scores of users.
-Responsive Design: The application is fully responsive and works well on different screen sizes.
+User Registration: Users enter their name to start the quiz.
+Multiple-Choice Questions: Users are presented with multiple-choice questions and can select one answer per question.
+Result Calculation: The application calculates the total score based on correct answers.
+Scoreboard: Top scores are saved and displayed on a scoreboard.
+Responsive UI: The application is designed to be responsive and mobile-friendly using Bootstrap.
 Technologies Used
 Backend: Spring Boot, Spring MVC
 Frontend: Thymeleaf, Bootstrap
-Database: H2 (in-memory database, or configure another database like MySQL)
+Database: H2 (in-memory database)
 Template Engine: Thymeleaf
 Build Tool: Maven
 Java Version: Java 8 or higher
-Setup Instructions
-Prerequisites
-JDK 8 or higher
-Maven 3.6.0 or higher
-Git (optional, for cloning the repository)
 

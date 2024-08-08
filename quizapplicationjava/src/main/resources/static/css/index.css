@@ -1,0 +1,106 @@
+/* index.css */
+
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main Container */
+.main-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Header */
+.text-box h1 {
+    color: #343a40;
+    font-weight: bold;
+}
+/* Image box styling */
+.image-box img {
+    width: 400px;
+    height: 400px;
+    
+   
+}
+
+/* Form Styles */
+form.card {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #343a40;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+form.card p {
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+form.card input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form.card input[type="text"]:focus {
+    outline: none;
+    border: 2px solid #ffc107;
+}
+
+form.card .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+/* Warning Message */
+.text-danger.warning {
+    margin-top: 10px;
+    color: #ff4d4d;
+}
+
+/* Navbar and Footer */
+.navbar, .footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.navbar a, .footer a {
+    color: #ffc107;
+}
+
+.navbar a:hover, .footer a:hover {
+    color: #ffffff;
+}
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-container {
+        padding: 20px;
+    }
+
+    form.card {
+        padding: 20px;
+    }
+
+    form.card p {
+        font-size: 1em;
+    }
+
+    form.card .btn {
+        font-size: 1em;
+    }
+}

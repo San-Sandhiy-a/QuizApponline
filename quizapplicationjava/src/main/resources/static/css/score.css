@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+.main-container {
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Header */
+h3 {
+    background-color: #dc3545; /* Bootstrap Danger Color */
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+}
+
+table th {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+table td {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+table tr:nth-child(even) td {
+    background-color: #343a40;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #343a40;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.footer a {
+    color: #ffc107;
+    margin-left: 10px;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-container {
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    table th, table td {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+}
